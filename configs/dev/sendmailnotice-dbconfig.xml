@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<databaseConfig>
+	<database>
+		<index>0</index>
+		<key>sendmailnotice</key>
+		<databaseType>mysql</databaseType>
+		<schemas>[sendmailnotice]:master</schemas>
+		<jndi>false</jndi>
+		<databaseProperties name="driverClassName">com.mysql.cj.jdbc.Driver</databaseProperties>
+		<databaseProperties name="url">jdbc:mysql://localhost:3306/master</databaseProperties>
+		<databaseProperties name="username">root</databaseProperties>
+		<databaseProperties name="password">playDISK@2020</databaseProperties>
+		<databaseProperties name="maxActive">1</databaseProperties>
+		<databaseProperties name="maxIdle">0</databaseProperties>
+		<databaseProperties name="maxWait">-1</databaseProperties>
+		<databaseProperties name="minEvictableIdleTimeMillis">1</databaseProperties>
+	</database>
+</databaseConfig>

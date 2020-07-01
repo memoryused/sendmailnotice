@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<parameter>
+    <application>
+        <databaseConfigPath>sendmailnotice-dbconfig.xml</databaseConfigPath>
+        <mailConfigurePath>mail_google.properties</mailConfigurePath>
+    </application>
+   	<monitorApplication>
+		<appVersion>@appVersionNumber@_build_@buildNumber@</appVersion>
+		<pathFileVersion></pathFileVersion>
+		<fileNameVersion>version.txt</fileNameVersion>
+	</monitorApplication>
+</parameter>
