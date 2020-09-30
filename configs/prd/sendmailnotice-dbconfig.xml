@@ -4,12 +4,12 @@
 		<index>0</index>
 		<key>sendmailnotice</key>
 		<databaseType>mysql</databaseType>
-		<schemas>[sendmailnotice]:master</schemas>
+		<schemas>[sendmailnotice]:scl</schemas>
 		<jndi>false</jndi>
 		<databaseProperties name="driverClassName">com.mysql.cj.jdbc.Driver</databaseProperties>
-		<databaseProperties name="url">jdbc:mysql://localhost:3306/master</databaseProperties>
-		<databaseProperties name="username">root</databaseProperties>
-		<databaseProperties name="password">playDISK@2020</databaseProperties>
+		<databaseProperties name="url">jdbc:mysql://192.168.10.171:3306/scl</databaseProperties>
+		<databaseProperties name="username">scl</databaseProperties>
+		<databaseProperties name="password">scl@2020+</databaseProperties>
 		<databaseProperties name="maxActive">1</databaseProperties>
 		<databaseProperties name="maxIdle">0</databaseProperties>
 		<databaseProperties name="maxWait">-1</databaseProperties>
